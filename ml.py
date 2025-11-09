@@ -316,7 +316,7 @@ while True:
         else:
             elapsed_no_face = time.time() - no_face_start
             # optional: draw countdown on frame so user knows
-            cv2.putText(frame, f"No face: {int(elapsed_no_face)}s/{int(NO_FACE_SECONDS)}s", (20, 270),
+            cv2.putText(frame, f"No face: {int(elapsed_no_face)}s/{int(NO_FACE_SECONDS)}s", (20, 370),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
             if elapsed_no_face >= NO_FACE_SECONDS:
                 print(f"No face detected for {NO_FACE_SECONDS} seconds. Exiting...")
