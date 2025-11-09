@@ -78,4 +78,4 @@ A real-time Concentration Tracker built with MediaPipe and OpenCV. It detects fa
 
 ## Demo
 
-![Sample Output](/Users/subhashsharma/Developer/python/Concentration-Tracker/sample.png)
+![Sample Output](sample.png)
